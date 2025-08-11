@@ -20,7 +20,7 @@ These two concepts are at the heart of how a decision tree decides which questio
   + High entropy means the data is very mixed (e.g., a group with a 50/50 split of cats and dogs).
 
   + Low entropy (specifically 0) means the data is pure (e.g., a group with only dogs).
-    The formula for entropy is: $$H(S)=−{∑_{i=1}}^{c}p_{i}log_{2}(p_{i})$$
+    The formula for entropy is: $$H(S)=−{∑^{c}}_{i=1}p_{i}log_{2}(p_{i})$$
     Where $$p_{i}$$ is the probability of an item belonging to class i.
 
 - Information Gain is the reduction in entropy achieved by splitting the data on a particular feature. When building a tree, the algorithm calculates the information gain for every possible split and chooses the one with the highest information gain. In simple terms, it picks the split that results in the "purest" and most organized child nodes.
